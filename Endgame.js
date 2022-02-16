@@ -19,7 +19,7 @@ const Endgame = props => {
             <Text style={styles.textR}>End-GAME{"\n\n"}correct : {props.correct}</Text>
             <Text style={styles.textW}>{"\n"}Wrong : {props.correct-20}</Text>
             {   
-                props.correct - 20 > 10 ? (<Text style={{...styles.textR,fontSize:40}}>Won!</Text>):(<Text style={{...styles.textW,fontSize:70}}>Lose!</Text>)
+                props.correct > 10 ? (<Text style={{...styles.textR,fontSize:40}}>Won!</Text>):(<Text style={{...styles.textW,fontSize:70}}>Lose!</Text>)
             }
             
             </View>

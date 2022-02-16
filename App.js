@@ -143,6 +143,7 @@ export default function App() {
       setNextQuestion(0);
       setCurrentQuestion(0);
       setQuestions([]);
+      setCorrect(0);
       data_request();
   }
   const startGame=(start)=>{
