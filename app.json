@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Quiz",
+    "slug": "Quiz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B9EA8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash_logo.png",
+        "backgroundColor": "#7B9EA8"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
